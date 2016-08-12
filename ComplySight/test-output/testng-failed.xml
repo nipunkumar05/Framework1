@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity]">
+  <test name="LM_Update_Dates(failed)">
+    <classes>
+      <class name="scenarios.TestNGreportlearning">
+        <methods>
+          <include name="testMethodThree"/>
+          <include name="testMethodTwo"/>
+        </methods>
+      </class> <!-- scenarios.TestNGreportlearning -->
+    </classes>
+  </test> <!-- LM_Update_Dates(failed) -->
+</suite> <!-- Failed suite [Sanity] -->
