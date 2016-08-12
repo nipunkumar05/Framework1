@@ -23,7 +23,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 		public static WebDriver browser(String Br)
 		{
 			       Driver = null;
-System.out.println("NK");
+System.out.println("N1K");
 		          if (Br.equalsIgnoreCase("FF"))
 
 		               {
