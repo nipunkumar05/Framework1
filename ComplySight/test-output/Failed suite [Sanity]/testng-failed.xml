@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Sanity]]">
+  <test name="L5_Webinar(failed)(failed)">
+    <classes>
+      <class name="scenarios.L5_Webinar">
+        <methods>
+          <include name="catchscreenshot"/>
+          <include name="L5_WebinarCreation"/>
+          <include name="L5_WebinarList"/>
+          <include name="L5_Login"/>
+        </methods>
+      </class> <!-- scenarios.L5_Webinar -->
+      <class name="scenarios.L5_CreateClient">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_CreateClient -->
+      <class name="scenarios.L5_Import_Area">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_Import_Area -->
+      <class name="scenarios.L5_Import_Client">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_Import_Client -->
+    </classes>
+  </test> <!-- L5_Webinar(failed)(failed) -->
+  <test name="L5_Import_Client(failed)(failed)">
+    <classes>
+      <class name="scenarios.L5_Webinar">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_Webinar -->
+      <class name="scenarios.L5_CreateClient">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_CreateClient -->
+      <class name="scenarios.L5_Import_Area">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_Import_Area -->
+      <class name="scenarios.L5_Import_Client">
+        <methods>
+          <include name="L5_Import_Client"/>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_Import_Client -->
+    </classes>
+  </test> <!-- L5_Import_Client(failed)(failed) -->
+  <test name="L5_Import_Area(failed)(failed)">
+    <classes>
+      <class name="scenarios.L5_Webinar">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_Webinar -->
+      <class name="scenarios.L5_CreateClient">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_CreateClient -->
+      <class name="scenarios.L5_Import_Area">
+        <methods>
+          <include name="catchscreenshot"/>
+          <include name="L5_Import_Area"/>
+        </methods>
+      </class> <!-- scenarios.L5_Import_Area -->
+      <class name="scenarios.L5_Import_Client">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_Import_Client -->
+    </classes>
+  </test> <!-- L5_Import_Area(failed)(failed) -->
+  <test name="L5_CreateClient(failed)(failed)">
+    <classes>
+      <class name="scenarios.L5_Webinar">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_Webinar -->
+      <class name="scenarios.L5_CreateClient">
+        <methods>
+          <include name="L5_ResetPassword"/>
+          <include name="L5_Create_client"/>
+          <include name="catchscreenshot"/>
+          <include name="L5_Create_client_Validations"/>
+        </methods>
+      </class> <!-- scenarios.L5_CreateClient -->
+      <class name="scenarios.L5_Import_Area">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_Import_Area -->
+      <class name="scenarios.L5_Import_Client">
+        <methods>
+          <include name="catchscreenshot"/>
+        </methods>
+      </class> <!-- scenarios.L5_Import_Client -->
+    </classes>
+  </test> <!-- L5_CreateClient(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Sanity]] -->
